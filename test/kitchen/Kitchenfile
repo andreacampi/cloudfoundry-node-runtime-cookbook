@@ -1,0 +1,4 @@
+cookbook "cloudfoundry-node-runtime" do
+  configuration "node08"
+  runtimes []
+end
