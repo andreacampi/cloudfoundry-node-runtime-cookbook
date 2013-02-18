@@ -20,11 +20,11 @@
 include_recipe "nodejs::install_from_package"
 
 cloudfoundry_runtime "node08" do
-  version           "0.8.18"
-  description       "Node.js 0.8.18"
+  version           "0.8.20"
+  description       "Node.js 0.8.20"
   executable        "/usr/bin/node"
   version_flag      "-v"
-  version_output    "0.8.18"
+  version_output    "0.8.20"
   frameworks        %w{ node standalone }
   action :nothing
 end.run_action(:create)
